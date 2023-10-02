@@ -13,7 +13,6 @@ public class Task1_4 {
 	}
 
 	public static void main(String[] args) {
-		// test moveTowerHN
 		moveTowerHN(4, 'X', 'Y', 'Z');
 	}
 }
