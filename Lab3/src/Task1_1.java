@@ -35,9 +35,9 @@ public class Task1_1 {
 		int[] arr2 = { 10, 12, 13, 25, 11, 48 };
 		int[] arr3 = { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90 };
 		Task1_1 t1 = new Task1_1(arr);
-		System.out.println(t1.iterativeBinarySearch(26));
-		System.out.println(t1.iterativeLinearSearch(45));
-		System.out.println(t1.iterativeLinearSearch(0));
+//		System.out.println(t1.iterativeBinarySearch(26));
+//		System.out.println(t1.iterativeLinearSearch(45));
+//		System.out.println(t1.iterativeLinearSearch(0));
 		System.out.println(t1.recursiveLinearSearch(9));
 
 	}

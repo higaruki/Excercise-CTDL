@@ -12,7 +12,9 @@ public class Product {
 		this.price = price;
 		this.type = type;
 	}
-
+	public String getId() {
+		return id;
+	}
 	public double getPrice() {
 		return price;
 	}

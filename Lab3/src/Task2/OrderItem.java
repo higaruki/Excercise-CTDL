@@ -8,7 +8,9 @@ public class OrderItem {
 		this.p = p;
 		this.quantity = quantity;
 	}
-
+	public String getId() {
+		return p.getId();
+	}
 	public double getPrice() {
 		return p.getPrice();
 	}
